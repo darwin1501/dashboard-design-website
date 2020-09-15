@@ -1,0 +1,81 @@
+@media only screen and (min-width: 320px) {
+    .bar-chart-container {
+        height: 80%;
+        margin: 2% auto 5% auto;
+        position: relative;
+        width: 90%;
+    }
+    .ctrl-btn-grp{
+        margin: 5% auto 5% auto;
+        display: flex;
+        /*justify-content: center;*/
+        flex-wrap: wrap;
+    }
+    .button-plus, .button-minus{
+        width: 37.5%;
+        margin: 0 0 0 0;
+    }
+    .card{
+        width: 90%;
+        margin: 5% auto 5% auto;
+    }
+    .card-container{
+        margin: 5% auto 10% auto;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .data-1, .data-2, .data-3, .data-4{
+        width: 100%;
+    }
+    .ctrl-btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .input-group input[type='button'] {
+       /* min-width: 25%;*/
+        margin: 0 0 0 0;
+    }
+    .input-group .quantity-field {
+    width: 25%;
+    margin: 0 0 0 0;
+    }
+}
+
+@media only screen and (min-width: 400px){
+    .button-plus, .button-minus{
+        width: 37.5%;
+        margin: 0 0 0 0;
+    }
+    .data-1, .data-2, .data-3, .data-4{
+        width: 50%;
+    }
+    .input-group .quantity-field {
+    width: 25%;
+    margin: 0 0 0 0;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .button-plus, .button-minus{
+        width: 37.5%;
+        margin: 0 0 0 0;
+    }
+    .card{
+        max-width: 1000px;
+    }
+    .card-container{
+        margin: 3% auto 5% auto;
+    }
+    .data-1, .data-2, .data-3, .data-4{
+        width: 25%;
+    }
+    .input-group .quantity-field {
+    width: 25%;
+    margin: 0 0 0 0;
+    }
+}

@@ -1,0 +1,96 @@
+:root {
+    --grey-d3: #000000;
+    --red-1: #F2B8D1;
+    --red-2: #F04B92;
+    --red-3: #EB1E77;
+    --red-4: #AD1257;
+    --white: #FFFFFF;
+    --blue: #329EF4;
+}
+.btn-grp-container{
+  width: 95%;
+  margin: 0 auto 5% auto;
+}
+
+.box{
+  width: 100%;
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px  var(--grey);
+}
+.chart-lbl {
+    margin-left: 5%;
+    font-size: 14px;
+    color: var(--grey-d3);
+    opacity: 0.8;
+}
+
+h4{
+  text-align: center;
+
+}
+/*buttons*/
+
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  margin: 15px 0;
+  position: relative;
+}
+
+.input-group input[type='button'] {
+  background-color: #eeeeee;
+  min-width: 50px;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 38px;
+ /* left: -5%;*/
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+
+}
+
+/*.button-plus {
+  left: -8%;
+}*/
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}

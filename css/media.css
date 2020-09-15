@@ -1,0 +1,174 @@
+/*
+      These are the responsive styles. Throw some breakpoints in here!
+      */
+
+@media screen and (min-width: 320px) {
+    .btn-grp {
+        margin: 20px 0 20px 0;
+    }
+    .card1 {
+        grid-row: 1 / 3;
+        height: 100%;
+        padding-bottom: 35%;
+    }
+    .card2 {
+        grid-row: 3 / 5;
+        height: 100%;
+        padding-bottom: 35%;
+    }
+    .card3 {
+        grid-row: 5 / 7;
+        height: 100%;
+        padding-bottom: 35%;
+    }
+    .card4 {
+        grid-row: 7 / 9;
+        height: 100%;
+        padding-bottom: 35%;
+    }
+    .container-card-grp {
+        display: grid;
+        grid-template: repeat(8, 3%)/ repeat(1, 1fr);
+        grid-gap: 125px;
+        padding: 5% 0 25% 0;
+        margin: 5% 10% 5% 10%;
+    }
+    .d3-content, .d4-content, .d5-content, 
+    .d6-content, .d7-content, .auto-sort-content{
+        margin-top: 15%;
+    }
+    .img-container {
+        height: 70%;
+    }
+}
+@media screen and (min-width: 400px) {
+    .container-card-grp {
+        grid-gap: 150px;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width: 600px) {
+    .btn-container {
+        margin-left: 5%;
+    }
+    .container-card-grp {
+        grid-gap: 50px;
+        grid-template: repeat(10, 3%)/ repeat(4, 1fr);
+        margin: 5% 10% 5% 10%;
+        max-width: none;
+    }
+    .card1, .card2, .card3, .card4 {
+        height: 70%;
+        padding-bottom: 40%;
+    }
+    .card1 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 6;
+    }
+    .card2 {
+        grid-column: 3 / 5;
+        grid-row: 1 / 6;
+    }
+    .card3 {
+        grid-column: 1 / 3;
+        grid-row: 6 / 11;
+    }
+    .card4 {
+        grid-column: 3 / 5;
+        grid-row: 6 / 11;
+    }
+}
+@media screen and (min-width: 790px) {
+    .card1, .card2, .card3, .card4 {
+        height: 65%;
+        padding-bottom: 40%;
+    }
+    .img-container {
+        height: 80%;
+    }
+    .container-card-grp {
+        grid-gap: 50px;
+    }
+}
+@media screen and (min-width: 890px) {
+    .btn-grp {
+        margin: 20px 0 20px 20%;
+    }
+    .card1, .card2, .card3, .card4 {
+        height: 65%;
+        padding-bottom: 40%;
+    }
+    .img-container {
+        height: 85%;
+    }
+    .container-card-grp {
+        grid-gap: 60px;
+    }
+    h1 {
+        font-size: 74px;
+    }
+    .text-title {
+        font-size: 44px;
+    }
+}
+@media screen and (min-width: 920px) {
+    .container-card-grp {
+        grid-gap: 70px;
+        max-width: 736px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .btn-grp {
+        margin: 20px 0 20px 50%;
+    }
+    .card1, .card2, .card3, .card4 {
+        height: 70%;
+        padding-bottom: 33%;
+        margin-bottom: 40%;
+    }
+    .container-card-grp {
+        grid-gap: 50px;
+        margin: 5% 10% 5% 10%;
+        max-width: none;
+    }
+    .container-card-grp {
+        grid-gap: 80px;
+        padding-bottom: 15%;
+    }
+    h1 {
+        font-size: 74px;
+    }
+    h4{
+        font-size: 1em;
+    }
+    .img-container {
+        height: 90%;
+    }
+    .text-title {
+        font-size: 44px;
+    }
+    .text-content{
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .card1, .card2, .card3, .card4 {
+        padding-bottom: 30%;
+    }
+    .container-card-grp {
+        margin: 5% 5% 5% 5%;
+    }
+    h1 {
+        font-size: 104px;
+    }
+    main {
+        max-width: 1400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+`
