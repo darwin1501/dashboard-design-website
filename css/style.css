@@ -102,10 +102,6 @@
      justify-content: center;
      align-items: center;
  }
- .footer-content{
-     display: flex;
-     padding: 20px;
- }
  .footer-btn{
      border: solid #0ABFFD;
      border-width: 1px;
@@ -126,6 +122,13 @@
  }
  .footer-btn-txt{
      color: var(--white);
+ }
+  .footer-content{
+     display: flex;
+     padding: 20px;
+ }
+ .footer-link{
+     text-decoration: none !important;
  }
  .github-img {
      background: url(../img/png/github.png) center center no-repeat;
